@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraIMC</title>
+</head>
+<!-- 
+    CALCULO IMC = PESO/ALTURA*ALTURA.
+
+    INPUT PARA O PESO
+    INPUT PARA A ALTURA
+
+    BOTAO - CALCULAR
+    --------------------
+    ESCREVER O RESULTADO
+
+    CLASSIFICAR O RESULTADO
+-->
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo-principal">Calculadora IMC</h1>
+    </header>
+    <main class="caixa-principal">
+        <section class="caixa-input">
+            <input type="number" id="peso" placeholder="Digite seu peso">
+            <input type="number" id="altura" placeholder="Digite sua altura">
+            <input type="button" value="CALCULAR" id="botao">
+
+            <p class="texto-resultado"></p>
+            <p class="resultado"></p>
+            <p class="aviso"></p>
+            <p class="alertaSaude"></p>
+        </section>
+    </main>
+    <footer class="rodape">
+    <hr>
+        <p class="copyright">&copy; CopyRight 15 de Outubro de 2024 - Kadu Felipy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

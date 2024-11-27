@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(217, 30, 89);
+    font-family: ;
+}
+
+header {
+    padding: 1vh 1vw;
+    background: rgb(217, 30, 89);
+    margin-bottom: 1vh;
+}
+
+#peso {
+    background: beige;
+}
+#altura {
+    background: beige;
+    color: black;
+}
+
+#botao {
+    background: beige;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.verde {
+    color: green;
+}
+
+.laranja {
+    color: orange;
+}
+
+.vermelho {
+    color: red;
+}
